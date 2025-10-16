@@ -1,4 +1,4 @@
-# gensyn-setup
+# PART 1:: gensyn-setup
 
 # Gensyn Node  (RL-Swarm)
 
@@ -142,6 +142,126 @@ screen -r gensyn
 ```
 
 ---
+
+
+# PART 2::  SWARM Role & Telegram Bot Setup Guide 🐝
+
+- Get your SWARM role and Telegram bot up and running in no time. This guide walks you through every step, so even if you’re new, you’ll be good to go..  
+
+- Step 1: Run your RL-Swarm Node
+
+Before you can get your SWARM role, make sure your RL-Swarm node is up and running.
+Check out the setup PART 1:: ABOVE
+
+---
+
+## Use a screen session to ensure the bot stays online even if you disconnect:
+
+```bash
+screen -S swarm-bot
+```
+
+
+## 2 Install Gswarm
+
+```bash
+# Install Go:
+sudo rm -rf /usr/local/go
+curl -L https://go.dev/dl/go1.22.4.linux-amd64.tar.gz | sudo tar -xzf - -C /usr/local
+echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile
+echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> $HOME/.bash_profile
+source .bash_profile
+go version
+```
+```
+go install github.com/Deep-Commit/gswarm/cmd/gswarm@latest
+```
+## Verify Installation
+```
+gswarm --version
+```
+
+
+## 3 Telegram Bot Set-Up 🤖
+
+
+**1️⃣ Create a Telegram Bot**
+
+- Open Telegram and chat with @BotFather
+-  Send the command:
+
+```bash
+/newbot
+```
+Follow the instructions:
+
+- Choose a name for your bot
+- Choose a username (must end with “bot”)
+- Save the bot token provided — you’ll need it later.
+- Start a chat with your new bot and send some messages to it
+
+**2. Get Your Chat ID:**
+
+- Open Telegram and search for @chat_id_echo_bot
+
+- Send any message to the bot.
+
+- The bot will reply with your chat ID — save it for later use.
+
+
+<img width="1290" height="1757" alt="image" src="https://github.com/user-attachments/assets/72a4111c-853d-4e5b-b6d2-c4d75f3b6c06" />
+<img width="952" height="360" alt="image" src="https://github.com/user-attachments/assets/2e8deacc-8822-41fc-b67a-b0833890641a" />
+
+
+## 3 Run Gswarm Bot
+```
+gswarm
+```
+
+Run `gswarm` in your terminal now and follow the prompts to enter your bot token, chat ID, and EOA address
+
+- You'll find EOA address by logging in the https://dashboard.gensyn.ai/
+
+<img width="545" height="358" alt="image" src="https://github.com/user-attachments/assets/2a8b69d1-b61f-4b54-bacc-f4cb837d215a" />
+
+
+
+
+## 4 Linking Discord and Telegram
+
+To link your Discord and Telegram accounts, follow these steps:
+
+1. Get your verification code
+
+Open Discord and go to the #|swarm-link channel
+
+Type:
+
+```bash
+/link-telegram
+```
+You will receive a verification code.
+
+2. Verify the code on Telegram
+
+Open your Telegram bot
+
+Type:
+
+```bash
+/verify <code>
+```
+Replace <code> with the code you received from Discord.
+
+Once verified, your Discord and Telegram accounts are linked, and you’ll earn The Swarm role.
+
+<img width="624" height="378" alt="image" src="https://github.com/user-attachments/assets/b23c1602-5e72-4203-83d3-435f26e6e007" />
+
+
+
+
+
+
 
 **See you in the Swarm! 🚀**
 
