@@ -270,3 +270,33 @@ Once verified, your Discord and Telegram accounts are linked, and you’ll earn 
 <img width="760" height="363" alt="Screenshot 2025-10-13 163033" src="https://github.com/user-attachments/assets/06b8fe37-4d6d-48d7-b318-8c5c72e15c08" />
 
 
+# PART 3::  BLOCK Role
+
+-- First sign up on Hugging Face https://huggingface.co/
+-- Create new access Token and save token for further use: https://huggingface.co/settings/tokens
+--- ALSO SAVE YOUR Blockassit url: https://huggingface.co/<YOUR_USERNAME_HERE>/blockassist
+
+FOLLOW BELOW VIDEO TO SETUP BLOCK NODE: https://x.com/colonydrops/status/1977382444375359652
+
+### ** CLAIMING ROLES ON DISCORD **
+goto the #Link-For-Access channel : https://discord.com/channels/852932483691577395/1397909075685146804
+
+>> Hugging Face
+Use the command /verify-huggingface to register your Hugging Face profile
+
+>> The Swarm 
+Follow the guideS Above
+Return there to get your linking code by running /link-telegram and follow the instructions.
+Get the @The Swarm role
+
+>> The Block 
+Once you have both of the above roles, go to ⁠︱🐝︱the-swarm
+Use the command /verify-block
+Register your uploaded BlockAssist model
+get your @Block
+
+
+<img width="353" height="237" alt="image" src="https://github.com/user-attachments/assets/549752e1-dfda-4002-b1c4-757abced8e26" />
+
+
+
